@@ -4,6 +4,7 @@ import {FaInstagram} from "react-icons/fa"
 import {FaTwitter} from "react-icons/fa"
 import {FaLinkedin} from "react-icons/fa"
 import {FaYoutube} from "react-icons/fa"
+import {FaFacebook} from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -20,6 +21,7 @@ const Footer = () => {
                     <FaTwitter className='text-2xl cursor-pointer hover:text-blue-600'/>
                     <FaLinkedin className='text-2xl cursor-pointer hover:text-blue-600'/>
                     <FaYoutube className='text-2xl cursor-pointer hover:text-red-600'/>
+                    <FaFacebook className='text-2xl cursor-pointer hover:text-red-600'/>
                 </div>
             </ul>
         </div>
